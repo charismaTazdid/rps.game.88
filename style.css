@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #24272E;
+}
+
+
+header{
+    background-color: white;
+    padding: 20px;
+}
+header>h1{
+    color: #25272E;
+    text-align: center;
+    font-family: sans-serif;
+}
+.score_board{
+    border: 3px solid white;
+    width: 200px;
+    margin: 20px auto;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    position: relative;
+}
+.badge{
+    background-color: #E2584D;
+    color: white;
+    padding: 2px 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+#user_level{
+    position: absolute;
+    top: 30px;
+    left: -35px;
+}
+#computer_level{
+    position: absolute;
+    top: 30px;
+    right: -35px;
+}
+.result{
+    font-size: 40px;
+    color: white;
+}
+.result>p{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.choices{
+    margin-top: 50px 0px ;
+    text-align: center;
+}
+.choice{
+    border: 8px solid white;
+    border-radius: 50%;
+    margin: 0px 20px;
+    padding: 22px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: rgb(23, 4, 41);
+
+}
+#action-massage{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#footer{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    color: white;
+    font-family: sans-serif;
+}
+
+/* this style will be use by javascript ,
+when we Win , Lost or Draw in our game , then we use this style 
+like an animmation */
+
+.greenGlow{
+    border: 8px solid rgb(10, 240, 10);
+    box-shadow: 0 0 10px rgb(22, 88, 22);
+}
+.redGlow{
+    border: 8px solid rgb(185, 10, 10);
+    box-shadow: 0 0 10px rgb(78, 8, 8);
+}
+.grayGlow{
+    border: 8px solid rgb(37, 59, 37);
+    box-shadow: 0 0 10px rgb(108, 146, 108);
+}
